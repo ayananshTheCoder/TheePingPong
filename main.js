@@ -24,6 +24,8 @@ function setup(){
 
 
 function draw(){
+ 
+canvas.center();
 
  background(0); 
 
@@ -34,7 +36,6 @@ function draw(){
  fill("#ffdead");
  stroke("ffdead");
  rect(0,0,20,700);
- canvas.center();
  
    //funtion paddleInCanvas call 
    paddleInCanvas();
