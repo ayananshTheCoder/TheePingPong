@@ -1,0 +1,35 @@
+.titleHeading
+{
+    background: rgba(255, 255, 255, 0.742);
+    padding: 10px;
+}
+
+#instructionsBtn
+{
+    border-radius: 5px;
+    float:right;
+    margin-top: 25px;
+}
+
+#playGame
+{
+    border-radius: 5px;
+}
+
+.titleA
+{
+    font-size: x-large;
+    color: black;
+    margin-left: 5px;
+}
+
+.subtitleA
+{
+    margin-left: 5px;
+}
+
+.cpLabel
+{
+    margin-left: 5px;
+    font-size: x-small;
+}
