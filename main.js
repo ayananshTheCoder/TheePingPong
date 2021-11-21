@@ -24,17 +24,15 @@ function setup(){
 
 
 function draw(){
- 
-canvas.center();
 
  background(0); 
 
- fill("#ffdead");
- stroke("#ffdead");
+ fill("black");
+ stroke("black");
  rect(680,0,20,700);
 
- fill("#ffdead");
- stroke("ffdead");
+ fill("black");
+ stroke("black");
  rect(0,0,20,700);
  
    //funtion paddleInCanvas call 
