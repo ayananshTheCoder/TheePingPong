@@ -27,13 +27,14 @@ function draw(){
 
  background(0); 
 
- fill("black");
- stroke("black");
+ fill("#ffdead");
+ stroke("#ffdead");
  rect(680,0,20,700);
 
- fill("black");
- stroke("black");
+ fill("#ffdead");
+ stroke("ffdead");
  rect(0,0,20,700);
+ canvas.center();
  
    //funtion paddleInCanvas call 
    paddleInCanvas();
