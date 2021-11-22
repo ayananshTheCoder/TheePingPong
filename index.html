@@ -16,17 +16,38 @@
     </head>
     <body background="background.jpeg">
             <div class="titleHeading">
-                <label class="btn btn-primary" id="instructionsBtn">Thee Instructions</label>
+                <label class="btn btn-primary" id="instructionsBtn" data-toggle="modal" data-target="#myModal">Thee Instructions</label>
                 <label class="titleA">Thee Ping Pong</label>
                 <br>
                 <label class="subtitleA">Play, watch, and enjoy!</label>
                 <br>
-                <label class="cpLabel">Developed: Ayanansh Mohanty</label>
+                <label class="cpLabel">Github: <a href="https://github.com/ayananshTheCoder" target="_blank">@ayananshTheCoder</a></label>
             </div>
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <span>
+                        <button data-dismiss="modal">&times;</button>
+                        <h4 id="heading1">Instructions</h4>
+                      </span>
+                  </div>
+                  <div class="modal-body">
+                    <ol>
+                        <li>Move three to four feet away.</li>
+                        <li>Move your right wrist upwards to move your paddle upwards.</li>
+                        <li>Move your right wrist downwards to move your paddle downwards.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
             <br><br>
             <center>
                 <button class="btn btn-warning" id="playGame" onclick="startGame()">Start Thee Game</button>
+                <br>
+                <br>
+                <button class="btn btn-danger" id="playGame" onclick="restart()">Restart</button>
             </center>
+            <label id="copyright">Developed: <a href="https://github.com/ayananshTheCoder">Ayanansh Mohanty</a></label>
         <script src="main.js"></script>
     </body>
 </html>
