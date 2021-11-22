@@ -33,3 +33,70 @@
     margin-left: 5px;
     font-size: x-small;
 }
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+#heading1
+{
+    font-size: 18px;
+    color: white;
+}
+
+.close
+{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 100px;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.close:hover
+{
+    background: rgba(255, 0, 0, 1) !important;
+}
+
+.instructionImg
+{
+    display: inline-block;
+    width: 55%;
+}
+
+.modal-body
+{
+    background: white;
+    margin: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 95%;
+    text-align: left !important;
+}
+
+.modal-content
+{
+    margin: 0px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    width: 95%;
+    text-align: center !important;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#copyright
+{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.742);
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+}
